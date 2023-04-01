@@ -1,0 +1,33 @@
+.slideImages {
+}
+
+@media screen and (max-width: 360px) {
+  .slideImages {
+    width: 100%;
+    height: 540px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .slideImages {
+    width: 100%;
+    height: 764px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .slideImages {
+    width: 100%;
+    height: 460px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .slideImages {
+    width: 100%;
+    height: 460px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .slideImages {
+    width: 100%;
+    height: 460px;
+  }
+}

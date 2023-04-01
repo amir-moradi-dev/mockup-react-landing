@@ -1,0 +1,134 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 33px;
+}
+.container img {
+  width: 500px;
+  height: 282px;
+}
+.loremAndImageOne {
+  display: flex;
+  flex-direction: column;
+  margin-top: 21px;
+  padding: 18px;
+  align-items: center;
+}
+.loremAndImageTwo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 21px;
+  padding: 18px;
+  align-items: center;
+}
+.loremAndImageThree {
+  display: flex;
+  flex-direction: column;
+  margin-top: 21px;
+  padding: 18px;
+  align-items: center;
+}
+.loremTitleOne {
+  margin-top: 12px;
+  margin-bottom: 9px;
+}
+.loremTitleTwo {
+  margin-top: 12px;
+  margin-bottom: 9px;
+}
+.loremTitleThree {
+  margin-top: 12px;
+  margin-bottom: 9px;
+}
+
+@media screen and (max-width: 360px) {
+  .loremAndImageContainer > img {
+    width: 330px;
+    height: 186px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container img {
+    width: 540px;
+    height: 304px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container img {
+    width: 720px;
+    height: 404px;
+  }
+  .loremAndImageOne,
+  .loremAndImageTwo,
+  .loremAndImageThree {
+    flex-direction: column;
+  }
+  .loremTitleOne,
+  .loremTitleTwo,
+  .loremTitleThree {
+    margin-top: 0;
+  }
+  .loremAndImageTwo {
+    flex-direction: row-reverse;
+  }
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .container img {
+    width: 400px;
+    height: 225px;
+  }
+  .loremContainerOne {
+    padding-left: 12px;
+  }
+  .loremContainerTwo {
+    padding-right: 12px;
+  }
+  .loremContainerThree {
+    padding-left: 12px;
+  }
+  .loremAndImageOne,
+  .loremAndImageTwo,
+  .loremAndImageThree {
+    align-items: start;
+    flex-direction: row;
+  }
+  .loremTitleOne,
+  .loremTitleTwo,
+  .loremTitleThree {
+    margin-top: 0;
+  }
+  .loremAndImageTwo {
+    flex-direction: row-reverse;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .container img {
+    width: 500px;
+    height: 282px;
+  }
+
+  .loremContainerOne {
+    padding-left: 12px;
+  }
+  .loremContainerTwo {
+    padding-right: 12px;
+  }
+  .loremContainerThree {
+    padding-left: 12px;
+  }
+  .loremAndImageOne,
+  .loremAndImageTwo,
+  .loremAndImageThree {
+    align-items: start;
+    flex-direction: row;
+  }
+  .loremTitleOne,
+  .loremTitleTwo,
+  .loremTitleThree {
+    margin-top: 0;
+  }
+  .loremAndImageTwo {
+    flex-direction: row-reverse;
+  }
+}

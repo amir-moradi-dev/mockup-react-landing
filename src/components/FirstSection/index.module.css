@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 33px;
+}
+.title {
+  text-align: center;
+}
+.desc {
+  margin-top: 12px;
+}
