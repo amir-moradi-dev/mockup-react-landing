@@ -3,6 +3,7 @@ import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import { useEffect } from "react";
 import Layout from "@/layout";
+import Head from "next/head";
 
 export default function App({ Component, pageProps }: AppProps) {
   useEffect(() => {
@@ -11,6 +12,9 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return (
     <Layout>
+      <Head>
+        <link rel={"stylesheet"} href={"/assets/fonts/vazir/VazirFont.css"} />
+      </Head>
       <Component {...pageProps} />
     </Layout>
   );
