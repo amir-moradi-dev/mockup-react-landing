@@ -43,6 +43,18 @@ function SecondSection() {
             titleStyle={styles.loremTitleThree}
           />
         </div>
+        <div className={styles.loremAndImageFour}>
+          <Image
+            src={"/assets/images/1.jpg"}
+            alt={"image"}
+            width={"1000"}
+            height={"1000"}
+          />
+          <LoremText
+            containerStyle={styles.loremContainerFour}
+            titleStyle={styles.loremTitleFour}
+          />
+        </div>
       </div>
     </>
   );

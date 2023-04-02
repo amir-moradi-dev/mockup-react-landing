@@ -1,0 +1,24 @@
+.container {
+}
+.title {
+}
+.desc {
+  margin-bottom: 30px;
+}
+.buttons {
+  display: flex;
+}
+.buttons button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 158px;
+  height: 48px;
+}
+
+@media screen and (max-width: 550px) {
+  .buttons {
+    flex-direction: column;
+  }
+}

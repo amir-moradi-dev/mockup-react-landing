@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 409px;
+  padding: 33px;
+  background: rgba(0, 0, 0, 0.53);
+  color: white;
+}
+.video {
+  margin-top: 27px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.videoDesc {
+}
+.playIconContainer {
+  margin-top: 42px;
+  background: #dedede;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+.playIcon {
+  background: #dedede;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 18px solid #555;
+  border-bottom: 10px solid transparent;
+}

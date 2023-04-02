@@ -52,7 +52,7 @@ function MainSlider() {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src={"/assets/images/2.jpg"}
+            src={"/assets/images/1.jpg"}
             alt={"slide number two"}
             width={500}
             height={500}
@@ -61,7 +61,7 @@ function MainSlider() {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src={"/assets/images/3.jpg"}
+            src={"/assets/images/1.jpg"}
             alt={"slide number three"}
             width={500}
             height={500}
@@ -70,7 +70,7 @@ function MainSlider() {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src={"/assets/images/4.jpg"}
+            src={"/assets/images/1.jpg"}
             alt={"slide number four"}
             width={500}
             height={500}
