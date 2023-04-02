@@ -24,48 +24,7 @@ function ResponsiveDivs({ count = 1 }: { count: number }) {
             <h3 className={"text-white position-absolute"}>لورم اپیسوم</h3>
             <div className={"container d-md-none d-lg-none d-xl-none"}>
               <div className={"row"}>
-                <p
-                  className={
-                    "col-5 mb-3 mx-3 bg-warning text-white text-center"
-                  }
-                >
-                  لورم
-                </p>
-                <p
-                  className={
-                    "col-5 mb-3 mx-3 bg-warning text-white text-center"
-                  }
-                >
-                  لورم
-                </p>
-                <p
-                  className={
-                    "col-5 mb-3 mx-3 bg-warning text-white text-center"
-                  }
-                >
-                  لورم
-                </p>
-                <p
-                  className={
-                    "col-5 mb-3 mx-3 bg-warning text-white text-center"
-                  }
-                >
-                  لورم
-                </p>
-                <p
-                  className={
-                    "col-5 mb-3 mx-3 bg-warning text-white text-center"
-                  }
-                >
-                  لورم
-                </p>
-                <p
-                  className={
-                    "col-5 mb-3 mx-3 bg-warning text-white text-center"
-                  }
-                >
-                  لورم
-                </p>
+                <LoremForSm count={6} />
               </div>
             </div>
           </div>
@@ -74,4 +33,20 @@ function ResponsiveDivs({ count = 1 }: { count: number }) {
     </Fragment>
   );
 }
+
+function LoremForSm({ count = 1 }: { count: number }) {
+  return (
+    <>
+      {Array.from({ length: count }, (k, i: number) => (
+        <p
+          className={"col-5 mb-3 mx-3 bg-warning text-white text-center"}
+          key={i}
+        >
+          لورم
+        </p>
+      ))}
+    </>
+  );
+}
+
 export default FourthSection;

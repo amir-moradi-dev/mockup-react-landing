@@ -10,6 +10,12 @@
   width: 100%;
   border-radius: 6px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.image h3 {
+  position: static !important;
+  margin-bottom: 12px;
+  text-shadow: 0 0 6px white;
 }
